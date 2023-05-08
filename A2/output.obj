@@ -1,0 +1,106 @@
+START:
+ -> 0
+READ -> 8
+N
+ -> 1040
+LOAD -> 10
+ZERO
+ -> 0
+STORE -> 11
+COUNT
+ -> 1038
+STORE -> 11
+SUM
+ -> 1036
+LOOP:
+ -> 1008
+READ -> 8
+X
+ -> 1042
+LOAD -> 10
+X
+ -> 1042
+ADD -> 1
+SUM
+ -> 1036
+STORE -> 11
+SUM
+ -> 1036
+LOAD -> 10
+COUNT
+ -> 1038
+ADD -> 1
+ONE
+ -> 1
+STORE -> 11
+COUNT
+ -> 1038
+SUB -> 2
+N
+ -> 1040
+JZ -> 7
+OUTER:
+ -> 1028
+JMP -> 4
+LOOP:
+ -> 1008
+OUTER:
+ -> 1028
+WRITE -> 9
+SUM
+ -> 1036
+HLT
+ -> 12
+START:
+ -> 0
+READ -> 8
+N
+ -> 1040
+LOAD -> 10
+ZERO
+ -> 0
+STORE -> 11
+COUNT
+ -> 1038
+STORE -> 11
+SUM
+ -> 1036
+LOOP:
+ -> 1008
+READ -> 8
+X
+ -> 1042
+LOAD -> 10
+X
+ -> 1042
+ADD -> 1
+SUM
+ -> 1036
+STORE -> 11
+SUM
+ -> 1036
+LOAD -> 10
+COUNT
+ -> 1038
+ADD -> 1
+ONE
+ -> 1
+STORE -> 11
+COUNT
+ -> 1038
+SUB -> 2
+N
+ -> 1040
+JZ -> 7
+OUTER:
+ -> 1028
+JMP -> 4
+LOOP:
+ -> 1008
+OUTER:
+ -> 1028
+WRITE -> 9
+SUM
+ -> 1036
+HLT
+ -> 12

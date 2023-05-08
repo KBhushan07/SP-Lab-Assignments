@@ -1,0 +1,14 @@
+-	START	-
+-	L	1,DATA1
+-	A	1,Y
+-	ST	1,COMPUTER
+-	L	2,K
+-	L	1,SYSTEM
+-	A	1,Y
+-	ST	1,PROGRAMMING
+-	S	1,PROGRAM
+-	L	1,Y
+-	A	1,Y
+-	ST	1,D
+-	M	1,J
+-	END	-

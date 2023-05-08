@@ -1,0 +1,5 @@
+1	-	M1	&ARG1,&SYSTEM
+2	-	L	1,#0RG1
+3	-	A	1,Y
+4	-	ST	1,#1YSTEM
+5	-	MEND	-

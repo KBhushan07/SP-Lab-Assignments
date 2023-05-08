@@ -1,0 +1,15 @@
+MACRO  ADD1  
+    LOAD A
+    ADD B
+MEND
+MACRO ADD2
+    LOAD C
+    ADD D
+    ADD1
+    LOAD D
+    ADD C
+MEND
+LOAD P
+ADD Q
+ADD2
+END
